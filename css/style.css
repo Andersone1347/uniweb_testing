@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: PTSerif;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+/* header */
+.header_up {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
