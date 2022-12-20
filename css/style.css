@@ -61,7 +61,9 @@ body {
 }
 
 .right_logo{
-
+    display: flex;
+    padding-left: 12px;
+    min-width: 150px;
 
 }
 
