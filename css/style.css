@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 .container {
-    width: 1110px;
+    width: 924px;
     margin: 0 auto;
 }
 
@@ -15,6 +15,54 @@ body {
 .header_up {
     display: flex;
     justify-content: space-between;
+    background-color: #4E2C1E;
+    min-height: 70px;
+}
+.phone {
+
+        font-size: 26px;
+        font-family: "Book Antiqua";
+        color: rgb( 255, 255, 255 );
+        text-align: justifyAll;
+        padding-left: 20px;
+      }
+      
+.buttons_head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.btn_head {
+    background-color: #E8C478;
+    color: #4E2C1E;
+    border: none;
+    border-radius: 6px;
+    min-width: 170px;
+    min-height: 24px;
+    margin: 5px;   
+}
+.nav {}
+ .navigation {
+    display: flex;
+    margin: 0 auto;
+}
+.navigation li {
+    
+    background-color: #79490C;
+    border: 1px solid black;
+
+    min-width: 115px;
+    min-height: 40px;
+    text-align: center;
+
+}
+
+.right_logo{
+
+
 }
 
 /* header */
