@@ -54,9 +54,27 @@ body {
             font-family: "Book Antiqua";
             color: rgb( 71, 40, 0 );
           
-          
-
 }
+
+button:hover {
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb( 171, 110, 23 );
+        border-radius: 5px;
+        background-image: -moz-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 119, 71, 11 ) 0%, rgb( 211, 149, 56 ) 72.607%, rgb( 245, 220, 185 ) 95.85%, rgb( 255, 249, 224 ) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 119, 71, 11 ) 0%, rgb( 211, 149, 56 ) 72.607%, rgb( 245, 220, 185 ) 95.85%, rgb( 255, 249, 224 ) 100%);
+
+        
+            font-size: 16px;
+            font-family: "Book Antiqua";
+            color: rgb( 255, 255, 255 );
+            text-align: justifyAll;
+            text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
+
+          
+}
+
 .nav {}
  .navigation {
     display: flex;
@@ -74,6 +92,13 @@ body {
     text-align: center;
     list-style-type: none;
 }
+
+li:hover {
+    
+}
+
+
+
 .li_basic {
     display: flex;
     align-items: center;
@@ -86,7 +111,7 @@ body {
         text-transform: uppercase;
         text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
       
-
+    
 }
 
 .right_logo{
