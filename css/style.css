@@ -36,13 +36,26 @@ body {
 }
 
 .btn_head {
-    background-color: #E8C478;
-    color: #4E2C1E;
-    border: none;
-    border-radius: 6px;
+
     min-width: 170px;
     min-height: 24px;
     margin: 5px;   
+
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb( 216, 201, 146 );
+        border-radius: 5px;
+        background-image: -moz-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);    
+
+        
+            font-size: 16px;
+            font-family: "Book Antiqua";
+            color: rgb( 71, 40, 0 );
+          
+          
+
 }
 .nav {}
  .navigation {
@@ -56,22 +69,54 @@ body {
     background-image: -webkit-linear-gradient( 90deg, rgb( 164, 103, 31 ) 0%, rgb( 131, 76, 11 ) 13.696%, rgb( 119, 71, 11 ) 25.439%, rgb( 176, 120, 43 ) 55.249%, rgb( 233, 192, 135 ) 100%);
     box-shadow: 0.5px 0.866px 0px 0px rgb( 126, 79, 19 );
     border: 1px solid black;
-    min-width: 154px;
+
     min-height: 40px;
     text-align: center;
     list-style-type: none;
 }
+.li_basic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 110px;
+
+        font-size: 11px;
+        font-family: "Verdana";
+        color: rgb( 255, 255, 255 );
+        text-transform: uppercase;
+        text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
+      
+
+}
 
 .right_logo{
+
     display: flex;
-    padding-left: 12px;
-    min-width: 150px;
+    align-items: center;
+
+    padding-left: 40px;
+    min-width: 266px;
+    color: white;
+    
+    font-size: 11px;
+    font-family: "Verdana";
+    color: rgb( 255, 255, 255 );
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
 
 }
 .left_logo{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-left: 80px;
-    min-width: 150px;
+    min-width: 185px;
+
+    font-size: 11px;
+    font-family: "Verdana";
+    color: rgb( 255, 255, 255 );
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
 
 }
 
