@@ -48,16 +48,18 @@ body {
  .navigation {
     display: flex;
     margin: 0 auto;
+    padding: 0 0;
 }
 .navigation li {
     
-    background-color: #79490C;
+    background-image: -moz-linear-gradient( 90deg, rgb( 164, 103, 31 ) 0%, rgb( 131, 76, 11 ) 13.696%, rgb( 119, 71, 11 ) 25.439%, rgb( 176, 120, 43 ) 55.249%, rgb( 233, 192, 135 ) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb( 164, 103, 31 ) 0%, rgb( 131, 76, 11 ) 13.696%, rgb( 119, 71, 11 ) 25.439%, rgb( 176, 120, 43 ) 55.249%, rgb( 233, 192, 135 ) 100%);
+    box-shadow: 0.5px 0.866px 0px 0px rgb( 126, 79, 19 );
     border: 1px solid black;
-
-    min-width: 115px;
+    min-width: 154px;
     min-height: 40px;
     text-align: center;
-
+    list-style-type: none;
 }
 
 .right_logo{
@@ -66,5 +68,15 @@ body {
     min-width: 150px;
 
 }
+.left_logo{
+    display: flex;
+    padding-left: 80px;
+    min-width: 150px;
 
+}
+
+.logo {
+position: absolute;
+margin: 25px 325px;
+}
 /* header */
