@@ -15,8 +15,9 @@ body {
 .header_up {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #4E2C1E;
-    min-height: 70px;
+    min-height: 83px;
 }
 .phone {
 
@@ -30,6 +31,7 @@ body {
 .buttons_head {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 4px;
     margin-top: 4px;
     margin-right: 5px;
@@ -78,7 +80,7 @@ button:hover {
 .nav {}
  .navigation {
     display: flex;
-    margin: 0 auto;
+    margin: -5px auto;
     padding: 0 0;
 }
 .navigation li {
@@ -94,8 +96,26 @@ button:hover {
 }
 
 li:hover {
-    
+
+
+        font-size: 11px;
+        font-family: "Verdana";
+        color: rgb( 78, 44, 30 );
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb( 216, 201, 146 );
+        background-image: -moz-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);    
+
+        
 }
+
+
+
 
 
 
@@ -103,7 +123,8 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 110px;
+    flex-wrap: wrap;
+    min-width: 116px;
 
         font-size: 11px;
         font-family: "Verdana";
@@ -118,9 +139,10 @@ li:hover {
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     padding-left: 40px;
-    min-width: 266px;
+    min-width: 230px;
     color: white;
     
     font-size: 11px;
@@ -132,21 +154,58 @@ li:hover {
 }
 .left_logo{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-left: 80px;
-    min-width: 185px;
+    min-width: 230px;
 
     font-size: 11px;
     font-family: "Verdana";
     color: rgb( 255, 255, 255 );
     text-transform: uppercase;
     text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
-
+    padding-left: 126px;
 }
+
+.first {
+border-radius: 5px 0px 0px 5px;
+}
+
+.last {
+    border-radius: 0px 5px 5px 0px;
+    }
 
 .logo {
-position: absolute;
-margin: 25px 325px;
+
+margin: -98px 320px;
 }
 /* header */
+
+
+@media screen and (max-width: 924px) {
+.container{
+  width: auto;  
+}
+.header_up {
+
+    min-height: 170px;
+}
+
+.li_basic {
+
+    min-width: 154px;
+
+}
+.left_logo {
+    min-width: 154px;
+}
+.right_logo {
+    min-width: 154px;
+}
+.logo {
+    position: static;
+    margin: none;
+
+}
+}
