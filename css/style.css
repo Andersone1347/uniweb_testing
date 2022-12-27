@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: PTSerif;
+    font-family: "Verdana";
 }
 body {
     margin: 0;
@@ -110,13 +110,30 @@ li:hover {
         border-color: rgb( 216, 201, 146 );
         background-image: -moz-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);
         background-image: -webkit-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);    
-
+        color: black;
         
 }
 
 
+.lipa {
+    font-size: 11px;
+    font-family: "Verdana";
+    color: rgb( 255, 255, 255 );
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
+  
 
+}
 
+.lipa:hover {
+
+    font-size: 11px;
+    font-family: "Verdana";
+    color: rgb( 78, 44, 30 );
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0.5px 0.866px 0px rgb( 17, 17, 26 );
+}
 
 
 .li_basic {
@@ -194,18 +211,102 @@ margin: -98px 320px;
 
 .li_basic {
 
-    min-width: 154px;
+
 
 }
-.left_logo {
-    min-width: 154px;
+
+
+
+.first {
+ border-radius: 0px;
 }
-.right_logo {
-    min-width: 154px;
-}
+.last {
+    border-radius: 0px;
+   }
+
 .logo {
-    position: static;
-    margin: none;
+    margin: -192px 294px;
+    text-align: center;
+
+}
+.navigation {
+
+    
+        justify-content: center;
+}
+.right_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 116px;
+    padding: 0;
+
+}
+.left_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 116px;
+    padding: 0;
 
 }
 }
+
+
+@media screen and (max-width: 782px) {
+
+.logo {
+    margin: -191px 235px;
+}
+
+}
+
+@media screen and (max-width: 710px) {
+
+    .phone{
+        display: none;
+    }
+
+    .logo {
+        margin: -238px 235px;
+    }
+    .navigation {
+        justify-content: center;
+ 
+            flex-wrap: wrap;
+
+    }
+    }
+
+    @media screen and (max-width: 546px) {
+
+
+
+        .phone{
+            display: none;
+        }
+    
+        .logo {
+            margin: -380px 2px;
+        }
+        
+        .navigation {
+            display: contents;
+        }
+        .buttons_head {
+            display: contents;
+            text-align: center;
+            margin: 0 0;
+        }
+        .header_up {
+            min-height: 220px;
+        }
+    }
+
+    @media screen and (max-width: 362px) {
+        .buttons_head {
+            display: block;
+        }
+    }
