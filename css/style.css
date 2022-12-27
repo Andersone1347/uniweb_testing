@@ -110,7 +110,7 @@ li:hover {
         border-color: rgb( 216, 201, 146 );
         background-image: -moz-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);
         background-image: -webkit-linear-gradient( 90deg, rgb( 250, 237, 199 ) 0%, rgb( 234, 207, 143 ) 12.72%, rgb( 232, 196, 120 ) 58.179%, rgb( 255, 249, 224 ) 95.85%, rgb( 255, 249, 224 ) 100%);    
-        color: black;
+        
         
 }
 
@@ -197,8 +197,58 @@ border-radius: 5px 0px 0px 5px;
 
 margin: -98px 320px;
 }
-/* header */
 
+/* header */
+/* середина */
+.midle_main {
+    background: url(/img/орнамент.png);
+    background-position-y: 153px;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    display: flex;
+    padding-top: 65px;
+}       
+.home {
+    max-width: 462px;
+}
+.clock {
+    max-width: 462px;
+}
+
+.midle_zag h1{
+        font-size: 15px;
+        font-family: "GaramondC";
+        color: rgb( 78, 44, 30 );
+        font-weight: bold;
+        text-align: center;
+        -moz-transform: matrix( 0.93658840801891, 0, 0, 0.93658840801891, 0, 0);
+        -webkit-transform: matrix( 0.93658840801891, 0, 0, 0.93658840801891, 0, 0);
+      
+}
+.midle_text {
+
+        font-size: 14px;
+        font-family: "Arial";
+        color: rgb( 53, 25, 13 );
+        text-align: justifyLeft;
+        -moz-transform: matrix( 0.93658840801891, 0, 0, 0.93658840801891, 0, 0);
+        -webkit-transform: matrix( 0.93658840801891, 0, 0, 0.93658840801891, 0, 0);
+      
+}
+.midle_img {
+
+        display: flex;
+        border-radius: 50%;
+        background-color: rgb( 255, 255, 255 );
+        box-shadow: 0.5px 0.866px 2px 0px rgb( 255, 255, 255 );
+
+
+
+      
+}
+
+
+/* середина */
 
 @media screen and (max-width: 924px) {
 .container{
